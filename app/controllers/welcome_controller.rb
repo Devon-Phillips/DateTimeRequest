@@ -1,4 +1,4 @@
 class WelcomeController < ApplicationController
-  def index
-  end
+	time = Time.new
+	puts "Today's Date : " + time.inspect
 end
